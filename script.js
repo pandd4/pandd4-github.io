@@ -3,13 +3,14 @@ function calcular() {
     let taxa = parseFloat(document.getElementById("taxa").value) / 100;
     let parcelas = parseInt(document.getElementById("parcelas").value);
 
-    if (isNaN(valor) || isNaN(taxa) || isNaN(parcelas) || valor <= 0 || taxa < 0 || parcelas <= 0) {
-        document.getElementById("resultado").innerText = "Por favor, insira valores válidos!";
+    if (isNaN(valor) || isNaN(taxa) || isNaN(parcelas) || parcelas <= 0) {
+        alert("Por favor, insira valores válidos.");
         return;
     }
 
-    let parcela = valor * (taxa * Math.pow(1 + taxa, parcelas)) / (Math.pow(1 + taxa, parcelas) - 1);
-    parcela = parcela.toFixed(2);
+    // Fórmula de juros compostos: M = P * [(1 + i)^n]
+    let montante = valor * Math.pow((1 + taxa), parcelas);
+    let parcelaMensal = montante / parcelas;
 
-    document.getElementById("resultado").innerText = `Valor da Parcela: R$ ${parcela}`;
+    document.getElementById("resultado").innerText = `R$ ${parcelaMensal.toFixed(2)}`;
 }
