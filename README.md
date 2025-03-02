@@ -15,14 +15,7 @@ Este é um simulador de financiamento que calcula o valor das parcelas de um emp
 ## 🛠️ **Tecnologias Utilizadas**  
 - **HTML** → Estrutura da página  
 - **CSS** → Estilização e design responsivo  
-- **JavaScript** → Lógica de cálculo do financiamento  
-
-## 🎨 **Imagens e Ilustrações**  
-O projeto utiliza ilustrações da **Undraw** para representar financiamento, projeções financeiras e investimentos.  
-📌 **Imagens usadas:**  
-- `undraw_finance_m6vw.png`  
-- `undraw_projections_fhch.png`  
-- `undraw_investing_kncz.png`  
+- **JavaScript** → Lógica de cálculo do financiamento   
 
 ## 🖥️ **Como Usar?**  
 1️⃣ Abra o site no navegador  
@@ -38,13 +31,8 @@ O projeto utiliza ilustrações da **Undraw** para representar financiamento, pr
  ┣ 📜 index.html  (Página principal)  
  ┣ 📜 styles.css  (Estilos do site)  
  ┣ 📜 script.js   (Lógica do cálculo)  
- ┣ 📂 img         (Pasta com as imagens)  
- ┃ ┣ 📜 undraw_finance_m6vw.png  
- ┃ ┣ 📜 undraw_projections_fhch.png  
- ┃ ┗ 📜 undraw_investing_kncz.png  
-```
-
+ 
 ## 📌 **Demonstração**  
-📎 
+📎 https://codepen.io/Amanda-Santos-the-builder/pen/raNjQjO
 
 💡 **Desenvolvido com HTML, CSS e JavaScript para tornar o planejamento financeiro mais acessível!** 🚀
